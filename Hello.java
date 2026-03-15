@@ -515,3 +515,7 @@ System.out.println(s.indexOf('a'));
 
 String s="Java";
 System.out.println(s.replace('a','o'));
+
+
+double r=5;
+System.out.println(3.14*r*r);
