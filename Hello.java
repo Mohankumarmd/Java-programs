@@ -511,3 +511,7 @@ public class Main {
 
 String s="Java";
 System.out.println(s.indexOf('a'));
+
+
+String s="Java";
+System.out.println(s.replace('a','o'));
