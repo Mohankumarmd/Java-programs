@@ -519,3 +519,16 @@ System.out.println(s.replace('a','o'));
 
 double r=5;
 System.out.println(3.14*r*r);
+
+
+class TestMethod {
+
+    void display() {
+        System.out.println("Hello Java");
+    }
+
+    public static void main(String[] args) {
+        TestMethod obj = new TestMethod();
+        obj.display();
+    }
+}
