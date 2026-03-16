@@ -532,3 +532,15 @@ class TestMethod {
         obj.display();
     }
 }
+
+
+class Person {
+    String name = "Mohan";
+}
+
+public class Test {
+    public static void main(String[] args) {
+        Person p = new Person();
+        System.out.println(p.name);
+    }
+}
