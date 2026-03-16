@@ -544,3 +544,18 @@ public class Test {
         System.out.println(p.name);
     }
 }
+
+
+public class Vowels {
+    public static void main(String[] args) {
+        String text = "java";
+        int count = 0;
+
+        for(char c : text.toCharArray()){
+            if("aeiou".indexOf(c) != -1)
+                count++;
+        }
+
+        System.out.println(count);
+    }
+}
