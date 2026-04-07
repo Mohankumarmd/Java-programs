@@ -646,3 +646,23 @@ public class PyramidPattern {
         }
     }
 }
+
+
+class Demo {
+	int a;
+	float b;
+	boolean c;
+}
+
+public class Variables {
+
+	public static void main(String[] args) {
+//		created object of the class
+	     Demo d = new Demo();
+	     System.out.println(d.a);
+	     System.out.println(d.b);
+	     System.out.println(d.c);
+
+	}
+
+}
