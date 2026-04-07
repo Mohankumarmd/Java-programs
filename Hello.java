@@ -675,3 +675,12 @@ public class Example {
         System.out.println(b);
     }
 }
+
+
+public class Example {
+    public static void main(String[] args) {
+        char ch = 'A';
+        int num = ch;
+        System.out.println(num);
+    }
+}
