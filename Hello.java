@@ -684,3 +684,60 @@ public class Example {
         System.out.println(num);
     }
 }
+
+
+
+
+
+import java.util.Scanner;
+
+class Car {
+	String name;
+	float cost;
+	float mileage;
+	
+//	                  CREATING METHOD
+	
+	void start()
+	{
+		System.out.println("Car is starting:");
+	}
+	
+	void accelerate()
+	{
+		System.out.println("Car is accelerating:");
+	}
+	
+	void stop()
+	{
+		System.out.println("Car is Stopping:");
+	}
+}
+
+
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		Car c= new Car();
+		Scanner scan = new Scanner(System.in);
+		
+		
+		System.out.println("Enter a name of car:");
+		c.name = scan.nextLine();
+		
+		System.out.println("Enter a name of cost:");
+		c.cost = scan.nextFloat();
+		
+		System.out.println("Enter a mileage:");
+		c.mileage = scan.nextFloat();
+		
+		
+		
+		System.out.println(c.name);
+		System.out.println(c.cost);
+		System.out.println(c.mileage);
+			
+	}
+
+}
