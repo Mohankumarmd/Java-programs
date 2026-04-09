@@ -751,3 +751,13 @@ public class Main {
         System.out.println(result);
     }
 }
+
+
+public class Main {
+    public static void main(String[] args) {
+        int num = 130;
+        byte result = (byte) num;  // explicit casting
+
+        System.out.println(result);
+    }
+}
