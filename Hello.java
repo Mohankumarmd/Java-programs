@@ -761,3 +761,13 @@ public class Main {
         System.out.println(result);
     }
 }
+
+
+public class Main {
+    public static void main(String[] args) {
+        float num = 25.99f;
+        short result = (short) num;  // explicit casting
+
+        System.out.println(result);
+    }
+}
