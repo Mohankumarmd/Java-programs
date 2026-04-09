@@ -741,3 +741,13 @@ public class Demo1 {
 	}
 
 }
+
+
+public class Main {
+    public static void main(String[] args) {
+        double num = 10.75;
+        int result = (int) num;  // explicit casting
+
+        System.out.println(result);
+    }
+}
