@@ -789,3 +789,27 @@ public class Main1 {
         System.out.println(e1.esalary);
     }
 }
+
+
+class Student {
+    String name;
+    int age;
+
+    // Constructor
+    Student(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        
+        // creating one object
+        Student s1 = new Student("Mohan", 20);
+
+        // accessing object data
+        System.out.println("Name: " + s1.name);
+        System.out.println("Age: " + s1.age);
+    }
+}
