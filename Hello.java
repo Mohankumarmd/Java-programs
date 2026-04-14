@@ -813,3 +813,12 @@ public class Main {
         System.out.println("Age: " + s1.age);
     }
 }
+
+
+public class Demo {
+    public static void main(String[] args) {
+        String s1 = "MOHAN";
+        String s2 = "MAHESH";
+        System.out.println(s1.compareTo(S2));
+    }
+}
