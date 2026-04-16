@@ -842,3 +842,11 @@ public class Factorial {
         System.out.println("Factorial is: " + fact);
     }
 }
+
+
+long l = 9876543210L;
+        int intVal = (int) l;
+        System.out.println("Long value: " + l);
+        System.out.println("After casting to int (data loss): " + intVal);
+
+        System.out.println("-----------------------------");
