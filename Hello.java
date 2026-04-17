@@ -850,3 +850,20 @@ long l = 9876543210L;
         System.out.println("After casting to int (data loss): " + intVal);
 
         System.out.println("-----------------------------");
+
+
+package Strings;
+import java.util.StringTokenizer;
+
+public class Day1 {
+
+	public static void main(String[] args) {
+        	StringTokenizer s = new StringTokenizer("JAVA PYTHON AI ML");
+	while(s.hasMoreTokens())
+	{
+		System.out.println(s.nextToken());
+	}
+	
+		}
+
+}
