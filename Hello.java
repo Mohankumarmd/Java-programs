@@ -852,10 +852,10 @@ long l = 9876543210L;
         System.out.println("-----------------------------");
 
 
-package Strings;
+
 import java.util.StringTokenizer;
 
-public class Day1 {
+public class Demo {
 
 	public static void main(String[] args) {
         	StringTokenizer s = new StringTokenizer("JAVA PYTHON AI ML");
@@ -866,4 +866,27 @@ public class Day1 {
 	
 		}
 
+}
+
+class Calculator {
+    int add(int a, intb) {
+        return a + b;
+    }
+
+    int add(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    double add(double a, double b) {
+        return a + b;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Calculator obj = new Calculator();
+        System.out.println(obj.add(10,20));
+        System.out.println(obj.add(10,20,30));
+        System.out.println(obj.add(10,20));
+    }
 }
