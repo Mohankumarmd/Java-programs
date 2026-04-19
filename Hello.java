@@ -890,3 +890,41 @@ public class Main {
         System.out.println(obj.add(10,20));
     }
 }
+
+
+class Calculator {
+
+    // method with no arguments
+    int add() {
+        return 0;
+    }
+
+    // method with 1 argument
+    int add(int a) {
+        return a;
+    }
+
+    // method with 2 arguments
+    int add(int a, int b) {
+        return a + b;
+    }
+
+    // method with 3 arguments
+    int add(int a, int b, int c) {
+        return a + b + c;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+
+        // Creating object
+        Calculator obj = new Calculator();
+
+        // Calling methods with different arguments
+        System.out.println(obj.add(10, 20));      // 2 arguments
+        System.out.println(obj.add(10, 20, 30));  // 3 arguments
+        System.out.println(obj.add(10));          // 1 argument
+        System.out.println(obj.add());            // 0 arguments
+    }
+}
