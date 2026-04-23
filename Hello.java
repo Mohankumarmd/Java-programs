@@ -946,3 +946,35 @@ public class Factorial {
         System.out.println("Factorial is: " + fact);
     }
 }
+
+
+// Define a class
+class Animal {
+    
+    String name;      // object variable
+    String species;   // object variable
+
+    // Constructor (initializes object data)
+    Animal(String name, String species) {
+        this.name = name;
+        this.species = species;
+    }
+
+    // Method (function inside class)
+    void display() {
+        System.out.println("Animal Name: " + name);
+        System.out.println("Species: " + species);
+    }
+}
+
+// Main class
+public class Main {
+    public static void main(String[] args) {
+        
+        // Create an object
+        Animal a1 = new Animal("Leo", "Lion");
+
+        // Access object data using method
+        a1.display();
+    }
+}
