@@ -978,3 +978,46 @@ public class Main {
         a1.display();
     }
 }
+
+// Encapsulation Example
+class Student {
+
+    // Step 1: Declare variables as private (data hiding)
+    private String name;
+    private int age;
+
+    // Step 2: Create setter methods (to set values)
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    // Step 3: Create getter methods (to get values)
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+}
+
+// Main class
+public class Main {
+    public static void main(String[] args) {
+
+        // Create object
+        Student s1 = new Student();
+
+        // Set values using setter methods
+        s1.setName("Mohan");
+        s1.setAge(20);
+
+        // Get values using getter methods
+        System.out.println("Name: " + s1.getName());
+        System.out.println("Age: " + s1.getAge());
+    }
+}
