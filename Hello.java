@@ -1021,3 +1021,20 @@ public class Main {
         System.out.println("Age: " + s1.getAge());
     }
 }
+
+
+
+public class Main {
+    public static void main(String[] args) {
+        
+       
+        String name = "mohan";
+        
+        
+        String upperName = name.toUpperCase();
+        
+   
+        System.out.println("Original: " + name);
+        System.out.println("Uppercase: " + upperName);
+    }
+}
