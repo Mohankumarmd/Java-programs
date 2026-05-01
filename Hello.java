@@ -1059,3 +1059,8 @@ class BankAccount {
             System.out.println("Invalid amount!");
         }
     }
+
+        public double getBalance() {
+        return balance;
+    }
+}
