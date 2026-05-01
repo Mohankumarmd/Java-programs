@@ -1038,3 +1038,16 @@ public class Main {
         System.out.println("Uppercase: " + upperName);
     }
 }
+
+
+class BankAccount {
+
+    
+    private double balance;
+
+    
+    public void deposit(double amount) {
+        if (amount > 0) {
+            balance = balance + amount;
+        }
+    }
