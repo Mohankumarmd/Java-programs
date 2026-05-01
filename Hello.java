@@ -1064,3 +1064,13 @@ class BankAccount {
         return balance;
     }
 }
+
+
+class Car {
+    String name;
+    String getName()
+    {
+        return name;
+    }
+}
+
