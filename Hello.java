@@ -1080,3 +1080,7 @@ class Demo {
         System.out.println(c.getName());
     }
 }
+
+class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
