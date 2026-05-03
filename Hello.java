@@ -1090,3 +1090,6 @@ class Main {
            boolean result = str1.equals(str2);
 
         System.out.println(result);
+              scanner.close();
+    }
+}
