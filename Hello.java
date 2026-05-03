@@ -1086,3 +1086,7 @@ class Main {
         Scanner scanner = new Scanner(System.in);
           String str1 = scanner.nextLine();
           String str2 = scanner.nextLine();
+
+           boolean result = str1.equals(str2);
+
+        System.out.println(result);
