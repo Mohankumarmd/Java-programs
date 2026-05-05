@@ -1114,6 +1114,11 @@ public class Main {
 
 
 public class Main {
+
+    static
+    {
+        
+    }
     public static void main(String[] args) {
         System.out.println("Python");
     }
