@@ -1139,3 +1139,5 @@ public class Main {
         System.out.println(arr[i]);
         }
             scanner.close();
+                }
+}
