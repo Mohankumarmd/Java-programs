@@ -1133,3 +1133,6 @@ public class Main {
         float[] arr = new float[n];
                 for (int i = 0; i < n; i++) {
             arr[i] = scanner.nextFloat();
+                    }
+
+        for (int i = 0; i < n; i++) {
