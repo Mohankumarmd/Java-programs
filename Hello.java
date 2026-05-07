@@ -1145,4 +1145,5 @@ public class Main {
 public class Main {
     public static void main(String[] args) {
          int number = 10;
-          String name = "Mohan";
+         String name = "Mohan";
+         System.out.println(number);
