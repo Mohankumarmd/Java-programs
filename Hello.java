@@ -1147,3 +1147,4 @@ public class Main {
          int number = 10;
          String name = "Mohan";
          System.out.println(number);
+         System.out.println(name);
