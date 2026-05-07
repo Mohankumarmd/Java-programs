@@ -1148,3 +1148,5 @@ public class Main {
          String name = "Mohan";
          System.out.println(number);
          System.out.println(name);
+        }
+}
