@@ -1150,3 +1150,7 @@ public class Main {
          System.out.println(name);
         }
 }
+
+
+class Animal {
+    void sound() {
