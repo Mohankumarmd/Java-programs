@@ -1188,4 +1188,7 @@ class Employee {
 public class Main {
     public static void main(String[] args) {
         Employee e = new Employee();
-         e.setName("Mohan");
+        e.setName("Mohan");
+        System.out.println(e.getName());
+    }
+}
