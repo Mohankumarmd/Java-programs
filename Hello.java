@@ -1232,3 +1232,22 @@ public class Main {
         a.sound(); // Calls Dog class method
     }
 }  
+
+class Dog extends Animal {
+    @Override
+    void sound() {
+        System.out.println("Dog barks");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        
+        Animal a = new Dog(); // Parent reference, child object
+        
+        a.sound(); // Calls Dog class method
+    }
+}  
+
+
+
