@@ -1268,4 +1268,7 @@ public class Main {
             System.out.println(number + " is Even");
         } else {
             System.out.println(number + " is Odd");
+        }
+    }
+}
 
