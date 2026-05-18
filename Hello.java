@@ -1294,7 +1294,7 @@ public class Main {
 public class Main {
     public static void main(String[] args) {
         
-//         Animal a = new Dog(); 
+        Animal a = new Dog(); 
         
 //         a.sound(); 
 //     }
