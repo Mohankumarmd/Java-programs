@@ -1340,7 +1340,7 @@ public class Main {
 class Airplane {
 
     void takeOff() {
-//         System.out.println("Airplane is taking off");
+        System.out.println("Airplane is taking off");
 //     }
 
 //     void fly() {
