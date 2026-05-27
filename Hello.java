@@ -1335,3 +1335,27 @@ public class Main {
         System.out.println(obj.add(10,20));
     }
 }
+
+
+class Airplane {
+
+//     void takeOff() {
+//         System.out.println("Airplane is taking off");
+//     }
+
+//     void fly() {
+//         System.out.println("Airplane is flying");
+//     }
+
+//     void land() {
+//         System.out.println("Airplane is landing");
+//     }
+
+//     public static void main(String[] args) {
+//         Airplane a = new Airplane();
+
+//         a.takeOff();
+//         a.fly();
+//         a.land();
+//     }
+// }
