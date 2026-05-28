@@ -1345,7 +1345,7 @@ class Airplane {
 
     void fly() {
         System.out.println("Airplane is flying");
-//     }
+    }
 
 //     void land() {
 //         System.out.println("Airplane is landing");
