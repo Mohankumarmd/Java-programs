@@ -1343,7 +1343,7 @@ class Airplane {
         System.out.println("Airplane is taking off");
     }
 
-//     void fly() {
+    void fly() {
 //         System.out.println("Airplane is flying");
 //     }
 
