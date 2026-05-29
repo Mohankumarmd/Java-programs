@@ -1351,7 +1351,7 @@ class Airplane {
         System.out.println("Airplane is landing");
     }
 
-//     public static void main(String[] args) {
+    public static void main(String[] args) {
 //         Airplane a = new Airplane();
 
 //         a.takeOff();
