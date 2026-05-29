@@ -1349,7 +1349,7 @@ class Airplane {
 
     void land() {
         System.out.println("Airplane is landing");
-//     }
+    }
 
 //     public static void main(String[] args) {
 //         Airplane a = new Airplane();
