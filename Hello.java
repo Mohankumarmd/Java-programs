@@ -1355,7 +1355,7 @@ class Airplane {
         Airplane a = new Airplane();
 
         a.takeOff();
-//         a.fly();
+        a.fly();
 //         a.land();
 //     }
 // }
