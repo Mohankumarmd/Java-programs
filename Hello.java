@@ -1354,7 +1354,7 @@ class Airplane {
     public static void main(String[] args) {
         Airplane a = new Airplane();
 
-//         a.takeOff();
+        a.takeOff();
 //         a.fly();
 //         a.land();
 //     }
