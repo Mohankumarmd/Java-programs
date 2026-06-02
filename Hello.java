@@ -1356,6 +1356,6 @@ class Airplane {
 
         a.takeOff();
         a.fly();
-//         a.land();
+        a.land();
 //     }
 // }
