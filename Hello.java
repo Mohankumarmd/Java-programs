@@ -1363,7 +1363,7 @@ class Airplane {
 
 public class Demo1 {
 
-// 	public static void main(String[] args) {
+	public static void main(String[] args) {
 // 		Car c= new Car();
 // 		Scanner scan = new Scanner(System.in);
 		
