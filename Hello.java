@@ -1365,7 +1365,7 @@ public class Demo1 {
 
 	public static void main(String[] args) {
 		Car c= new Car();
-// 		Scanner scan = new Scanner(System.in);
+		Scanner scan = new Scanner(System.in);
 		
 		
 // 		System.out.println("Enter a name of car:");
