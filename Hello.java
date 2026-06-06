@@ -1368,7 +1368,7 @@ public class Demo1 {
 		Scanner scan = new Scanner(System.in);
 		
 		
-// 		System.out.println("Enter a name of car:");
+		System.out.println("Enter a name of car:");
 // 		c.name = scan.nextLine();
 		
 // 		System.out.println("Enter a name of cost:");
