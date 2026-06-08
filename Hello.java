@@ -1371,7 +1371,7 @@ public class Demo1 {
 		System.out.println("Enter a name of car:");
 		c.name = scan.nextLine();
 		
-// 		System.out.println("Enter a name of cost:");
+		System.out.println("Enter a name of cost:");
 // 		c.cost = scan.nextFloat();
 		
 // 		System.out.println("Enter a mileage:");
