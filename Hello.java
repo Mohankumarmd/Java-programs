@@ -1375,11 +1375,8 @@ public class Demo1 {
 		c.cost = scan.nextFloat();
 		
 		System.out.println("Enter a mileage:");
-// 		c.mileage = scan.nextFloat();
 		
-		
-		
-// 		System.out.println(c.name);
+		System.out.println(c.name);
 // 		System.out.println(c.cost);
 // 		System.out.println(c.mileage);
 			
