@@ -1378,8 +1378,8 @@ public class Demo1 {
 		
 		System.out.println(c.name);
 		System.out.println(c.cost);
-// 		System.out.println(c.mileage);
+		System.out.println(c.mileage);
 			
-// 	}
+	}
 
-// }
+}
