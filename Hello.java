@@ -1383,3 +1383,14 @@ public class Demo1 {
 	}
 
 }
+
+class Main {
+    public static void main(String[] arrgs) {
+        String str = "Hello";
+        char[] ch = str.toCharArray();
+
+        for (char ch : arr) {
+            System.out.println(ch);
+        }
+    }
+}
