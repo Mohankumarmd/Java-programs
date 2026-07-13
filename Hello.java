@@ -1428,7 +1428,7 @@ public class Factorial {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
-//         int num = sc.nextInt();
+        int num = sc.nextInt();
 
 //         int fact = 1;
 
