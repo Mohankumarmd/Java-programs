@@ -1432,10 +1432,22 @@ public class Factorial {
 
         int fact = 1;
 
-//         for (int i = 1; i <= num; i++) {
+        for (int i = 1; i <= num; i++) {
 //             fact = fact * i;
 //         }
 
 //         System.out.println("Factorial is: " + fact);
 //     }
 // }
+
+
+
+
+// List <String> names = Arrays.asList("Sam", "Mohan", "Vij");
+// names.forEach(names -> System.out.println(names));
+
+
+// Predicate<Integer> isEven = n -> n % 2 == 0;
+// System.out.println(isEven.test(10));
+// System.out.println(isEven.test(7));
+
